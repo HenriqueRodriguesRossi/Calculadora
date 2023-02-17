@@ -1,0 +1,89 @@
+:root{
+	--color-black1: black;
+	--color-white: ghostwhite;
+	--color-orange: orange;
+	--color-violet: darkviolet;
+	--color-red: red;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.fundo{
+	background-image: linear-gradient(45deg, black, crimson);
+	height: 100vh;
+	color: ghostwhite;
+	font-family: arial;
+}
+
+.calculadora{
+	position: absolute;
+	background-color: var(--color-black1);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	padding: 15px;
+}
+
+h1{
+	text-align: center;
+}
+
+#resultado{
+	background-color: var(--color-white);
+	width: 207px;
+	height: 35px;
+	border-radius: 10px;
+	margin: 5px 0px;
+	font-size: 25px;
+	color: var(--color-black1);
+	text-align: right;
+}
+
+.numero{
+	width: 50px;
+	height: 50px;
+	border-radius: 15px;
+	background-color: var(--color-violet);
+	color: var(--color-white);
+	font-family: arial;
+	font-weight: 500;
+}
+
+.numero:hover{
+	background-color: transparent;
+	color: var(--color-violet);
+}
+
+.operacao{
+	width: 50px;
+	height: 50px;
+	border-radius: 15px;
+	background-color: var(--color-orange);
+	color: var(--color-white);
+	font-family: arial;
+	font-weight: bold;
+}
+
+.operacao:hover{
+	background-color: transparent;
+	color: var(--color-violet);
+}
+
+.igual{
+	width: 50px;
+	height: 50px;
+	border-radius: 15px;
+	background-color: var(--color-red);
+	color: var(--color-white);
+	font-family: arial;
+	font-weight: bold;
+}
+
+.igual:hover{
+	background-color: transparent;
+	color: var(--color-violet);
+}
